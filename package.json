@@ -1,0 +1,27 @@
+{
+  "name": "express-sito-statico",
+  "version": "1.0.0",
+  "description": "Primo sito web statico su express",
+  "homepage": "https://github.com/smattia-rizzo/express-sito-statico#readme",
+  "bugs": {
+    "url": "https://github.com/smattia-rizzo/express-sito-statico/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smattia-rizzo/express-sito-statico.git"
+  },
+  "license": "ISC",
+  "author": "smattia-rizzo",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "helmet": "^8.1.0",
+    "morgan": "^1.10.1",
+    "serve-favicon": "^2.5.1"
+  }
+}
